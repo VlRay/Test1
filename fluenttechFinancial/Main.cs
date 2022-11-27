@@ -13,8 +13,6 @@ namespace fluenttechFinancial
 
         public Main()
         {
-            MarketCandle marketCandleTmp;
-
             Stopwatch sw = new Stopwatch();
 
             // start watch
