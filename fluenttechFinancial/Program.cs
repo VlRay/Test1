@@ -1,7 +1,5 @@
 
-using Microsoft.VisualBasic.FileIO;
-using System.Data;
-using System.Data.SQLite;
+
 
 
 namespace fluenttechFinancial

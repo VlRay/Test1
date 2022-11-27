@@ -3,77 +3,23 @@ using System.Data;
 
 namespace fluenttechFinancial
 {
-    class MarketLine
-    {
-        public string Time;
-        public long Quantity;
-        public double Price;
-
-        public MarketLine(string time, long quantity, double price) {
-            Time = time;
-            Quantity = quantity;
-            Price = price;
-        }
-
-    }
-
-    
-
-    class MarketCandle
-    {
-        public string TimeFormat;
-        public double Open;
-        public double Close;
-        public double High;
-        public double Low;
-        public long SumVolum;
-
-        public MarketCandle(string timeFormat, double open, double close, double high, double low, long sumVolum)
-        {
-            TimeFormat = timeFormat;
-            Open = open;
-            Close = close;
-            High = high;
-            Low = low;
-            SumVolum = sumVolum;
-        }
-    }
-   
-    public partial class Main : Form
+ public partial class Main : Form
     {
         
+        public static string nameFileCsv = "MarketDataTest.csv";
+
+        public static int formatTimeLenght = 16;
+
         public Main()
         {
            
-
             InitializeComponent();
 
             // read csv
-            IEnumerable<MarketLine> marketsList = File.ReadAllLines("MarketDataTest.csv")
-                .Skip(1)
-                .Select(csvLine =>
-                {
-                    string[] tmp = csvLine.Split(',');
-                    MarketLine marketLine = new MarketLine(tmp[0], long.Parse(tmp[1]), double.Parse(tmp[2]));
-                    return marketLine;
-                });
-
-            int formatTimeLenght = 16;
+            IEnumerable<MarketLine> marketList = MarketLine.GetMarketListFromCsv(nameFileCsv);
 
             // calculation
-            IEnumerable<MarketCandle> marketsFinal = marketsList.GroupBy(marketLine => marketLine.Time.Substring(0, formatTimeLenght))
-                                                        .Select(marketLine => 
-            {
-                   string timeFormat = marketLine.First().Time.Substring(0, formatTimeLenght);
-                   IEnumerable<MarketLine> marketsListCond = marketsList.Where(x => x.Time.Substring(0, formatTimeLenght) == timeFormat).OrderBy(x => x.Time);
-               
-                   MarketCandle marketCandle = new MarketCandle(timeFormat, marketsListCond.First().Price, marketsListCond.Last().Price,
-                                                     marketsListCond.Max(x => x.Price), marketsListCond.Min(x => x.Price), marketsListCond.Sum(x => x.Quantity))
-                       ;
-
-                       return marketCandle;
-              })
-                                                        ;
+            IEnumerable<MarketCandle> marketCandle = MarketCandle.GetMarketCandle(marketList, formatTimeLenght);
 
             DataTable dt = new DataTable();
 
@@ -86,7 +32,7 @@ namespace fluenttechFinancial
             dt.Columns.Add("Sum Volume");
 
 
-            marketsFinal
+            marketCandle
                 .ToList()
                 .ForEach(x => {
                dt.Rows.Add(x.TimeFormat, x.Open, x.Close, x.High, x.Low, x.SumVolum);

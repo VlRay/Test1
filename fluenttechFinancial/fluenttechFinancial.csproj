@@ -9,12 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NPoco.SqlServer" Version="5.7.0" />
-    <PackageReference Include="PetaPoco.Compiled" Version="6.0.532" />
-    <PackageReference Include="System.Data.SQLite" Version="1.0.116" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="MarketDataTest.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
