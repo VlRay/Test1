@@ -1,5 +1,6 @@
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 
 namespace fluenttechFinancial
 {
@@ -12,7 +13,13 @@ namespace fluenttechFinancial
 
         public Main()
         {
-           
+            MarketCandle marketCandleTmp;
+
+            Stopwatch sw = new Stopwatch();
+
+            // start watch
+            sw.Start();
+
             InitializeComponent();
 
             // read csv
@@ -21,6 +28,7 @@ namespace fluenttechFinancial
             // calculation
             IEnumerable<MarketCandle> marketCandle = MarketCandle.GetMarketCandle(marketList, formatTimeLenght);
 
+            // construct the datagrid
             DataTable dt = new DataTable();
 
             // header
@@ -31,8 +39,7 @@ namespace fluenttechFinancial
             dt.Columns.Add("Low");
             dt.Columns.Add("Sum Volume");
 
-
-            marketCandle
+             marketCandle
                 .ToList()
                 .ForEach(x => {
                dt.Rows.Add(x.TimeFormat, x.Open, x.Close, x.High, x.Low, x.SumVolum);
@@ -43,6 +50,10 @@ namespace fluenttechFinancial
             // sort default
             dataGridView1.Sort(dataGridView1.Columns["Date"], ListSortDirection.Ascending);
 
+            // stop watch
+            sw.Stop();
+
+            textBox1.Text = "Time spent program "+ sw.Elapsed;
         }
 
         private void dataGridView1_RowPrePaint(object sender, DataGridViewRowPrePaintEventArgs e)
@@ -65,5 +76,9 @@ namespace fluenttechFinancial
 
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
