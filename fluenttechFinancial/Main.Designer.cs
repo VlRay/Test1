@@ -59,6 +59,11 @@ namespace fluenttechFinancial
             this.Controls.Add(this.dataGridView1);
             this.Name = "Main";
             this.Text = "Form1";
+
+            this.dataGridView1.RowPrePaint
+    += new System.Windows.Forms.DataGridViewRowPrePaintEventHandler(
+        this.dataGridView1_RowPrePaint);
+
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
