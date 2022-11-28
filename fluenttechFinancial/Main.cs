@@ -11,20 +11,32 @@ namespace fluenttechFinancial
 
         public static int formatTimeLenght = 16;
 
+       
         public Main()
         {
-            Stopwatch sw = new Stopwatch();
-
+             
             // start watch
-            sw.Start();
+            LogWatch.Start();
 
             InitializeComponent();
+
+            LogWatch.StopAndLog("Initialize");
+
+            LogWatch.Start();
 
             // read csv
             IEnumerable<MarketLine> marketList = MarketLine.GetMarketListFromCsv(nameFileCsv);
 
+            LogWatch.StopAndLog("GetMarketListFromCsv");
+
+            LogWatch.Start();
+
             // calculation
             IEnumerable<MarketCandle> marketCandle = MarketCandle.GetMarketCandle(marketList, formatTimeLenght);
+
+            LogWatch.StopAndLog("GetMarketCandle");
+
+            LogWatch.Start();
 
             // construct the datagrid
             DataTable dt = new DataTable();
@@ -49,9 +61,9 @@ namespace fluenttechFinancial
             dataGridView1.Sort(dataGridView1.Columns["Date"], ListSortDirection.Ascending);
 
             // stop watch
-            sw.Stop();
-
-            textBox1.Text = "Time spent program "+ sw.Elapsed;
+            LogWatch.StopAndLogFinal("Datagrid");
+            
+            textBox1.Text = LogWatch.logText;
         }
 
         private void dataGridView1_RowPrePaint(object sender, DataGridViewRowPrePaintEventArgs e)
@@ -78,5 +90,6 @@ namespace fluenttechFinancial
         {
 
         }
+
     }
 }
