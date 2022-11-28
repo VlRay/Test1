@@ -6,7 +6,7 @@ We also add a class LogWatch to see the time elapse
 
 Here a UML schema of our solution
 
-![alt text](https://github.com/jzaoui26/fluenttechFinancial/tree/main/readme/Schema.png)
+![alt text](hhttps://github.com/jzaoui26/fluenttechFinancial/blob/main/readme/Schema.png)
 
 ## Result & Screenshot
 
@@ -16,10 +16,10 @@ Initialize 00:00:00.0238389 - GetMarketListFromCsv 00:00:00.0345928 - GetMarketC
 
 Screenshot of the result
 
-![alt text](https://github.com/jzaoui26/fluenttechFinancial/tree/main/readme/Result.png)
+![alt text](https://github.com/jzaoui26/fluenttechFinancial/blob/main/readme/Result.png)
 
 ## Improvement
 
 We can maybe improve the ForEach from the list
 
-![alt text](https://github.com/jzaoui26/fluenttechFinancial/tree/main/readme/Result.png)
+![alt text](https://github.com/jzaoui26/fluenttechFinancial/blob/main/readme/Improvement.png)
