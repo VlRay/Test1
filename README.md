@@ -18,6 +18,15 @@ Screenshot of the result
 
 ![alt text](https://github.com/jzaoui26/fluenttechFinancial/blob/main/readme/Result.png)
 
+## Low-latency, testability
+
+We add a LogWatch to see the time elapse and do some tests
+
+We also add 2 parameters in
+
+- nameFileCsv = "MarketDataTest.csv"; // change the name of the file
+- formatTimeLenght = 16; // 17/06/2022 12:23:17.308 - for the minutes the lenght has to be 16 - to have seconds you have to put 19 for example
+
 ## Improvement
 
 We can maybe improve the ForEach from the list
