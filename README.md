@@ -6,7 +6,7 @@ We also add a class LogWatch to see the time elapse
 
 Here a UML schema of our solution
 
-![alt text](hhttps://github.com/jzaoui26/fluenttechFinancial/blob/main/readme/Schema.png)
+![alt text](https://github.com/jzaoui26/fluenttechFinancial/blob/main/readme/Schema.png)
 
 ## Result & Screenshot
 
