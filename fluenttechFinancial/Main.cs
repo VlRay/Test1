@@ -1,6 +1,5 @@
 using System.ComponentModel;
 using System.Data;
-using System.Diagnostics;
 
 namespace fluenttechFinancial
 {
@@ -8,7 +7,6 @@ namespace fluenttechFinancial
     {
         
         public static string nameFileCsv = "MarketDataTest.csv";
-
         public static int formatTimeLenght = 16;
 
        

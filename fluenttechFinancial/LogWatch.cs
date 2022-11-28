@@ -4,9 +4,7 @@ using System.Diagnostics;
 class LogWatch
 {
     public static string logText = "";
-
     public static Stopwatch sw = new Stopwatch();
-
     public static TimeSpan totalElapsed;
 
 
