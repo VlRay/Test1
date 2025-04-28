@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alex\\Desktop\\FluentCandleStick\\FluentCandleStick\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49A23152-6064-4524-8965-7529A40F9E84}|FluentCandleStick\\FluentCandleStick.csproj|c:\\users\\alex\\desktop\\fluentcandlestick\\fluentcandlestick\\fluentcandlestick\\models\\candlestick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A23152-6064-4524-8965-7529A40F9E84}|FluentCandleStick\\FluentCandleStick.csproj|solutionrelative:fluentcandlestick\\models\\candlestick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A23152-6064-4524-8965-7529A40F9E84}|FluentCandleStick\\FluentCandleStick.csproj|c:\\users\\alex\\desktop\\fluentcandlestick\\fluentcandlestick\\fluentcandlestick\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A23152-6064-4524-8965-7529A40F9E84}|FluentCandleStick\\FluentCandleStick.csproj|solutionrelative:fluentcandlestick\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A23152-6064-4524-8965-7529A40F9E84}|FluentCandleStick\\FluentCandleStick.csproj|c:\\users\\alex\\desktop\\fluentcandlestick\\fluentcandlestick\\fluentcandlestick\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A23152-6064-4524-8965-7529A40F9E84}|FluentCandleStick\\FluentCandleStick.csproj|solutionrelative:fluentcandlestick\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A23152-6064-4524-8965-7529A40F9E84}|FluentCandleStick\\FluentCandleStick.csproj|c:\\users\\alex\\desktop\\fluentcandlestick\\fluentcandlestick\\fluentcandlestick\\models\\marketrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A23152-6064-4524-8965-7529A40F9E84}|FluentCandleStick\\FluentCandleStick.csproj|solutionrelative:fluentcandlestick\\models\\marketrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A23152-6064-4524-8965-7529A40F9E84}|FluentCandleStick\\FluentCandleStick.csproj|c:\\users\\alex\\desktop\\fluentcandlestick\\fluentcandlestick\\fluentcandlestick\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A23152-6064-4524-8965-7529A40F9E84}|FluentCandleStick\\FluentCandleStick.csproj|solutionrelative:fluentcandlestick\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A23152-6064-4524-8965-7529A40F9E84}|FluentCandleStick\\FluentCandleStick.csproj|C:\\Users\\Alex\\Desktop\\FluentCandleStick\\FluentCandleStick\\fluentcandlestick\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49A23152-6064-4524-8965-7529A40F9E84}|FluentCandleStick\\FluentCandleStick.csproj|solutionrelative:fluentcandlestick\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A23152-6064-4524-8965-7529A40F9E84}|FluentCandleStick\\FluentCandleStick.csproj|c:\\users\\alex\\desktop\\fluentcandlestick\\fluentcandlestick\\fluentcandlestick\\marketdatatest.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{49A23152-6064-4524-8965-7529A40F9E84}|FluentCandleStick\\FluentCandleStick.csproj|solutionrelative:fluentcandlestick\\marketdatatest.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A23152-6064-4524-8965-7529A40F9E84}|FluentCandleStick\\FluentCandleStick.csproj|c:\\users\\alex\\desktop\\fluentcandlestick\\fluentcandlestick\\fluentcandlestick\\main.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{49A23152-6064-4524-8965-7529A40F9E84}|FluentCandleStick\\FluentCandleStick.csproj|solutionrelative:fluentcandlestick\\main.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 291,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\FluentCandleStick\\FluentCandleStick\\FluentCandleStick\\Main.cs",
+              "RelativeDocumentMoniker": "FluentCandleStick\\Main.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\FluentCandleStick\\FluentCandleStick\\FluentCandleStick\\Main.cs",
+              "RelativeToolTip": "FluentCandleStick\\Main.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T12:04:32.732Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CandleStick.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\FluentCandleStick\\FluentCandleStick\\FluentCandleStick\\Models\\CandleStick.cs",
+              "RelativeDocumentMoniker": "FluentCandleStick\\Models\\CandleStick.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\FluentCandleStick\\FluentCandleStick\\FluentCandleStick\\Models\\CandleStick.cs",
+              "RelativeToolTip": "FluentCandleStick\\Models\\CandleStick.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA5wAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:55:48.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MarketRecord.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\FluentCandleStick\\FluentCandleStick\\FluentCandleStick\\Models\\MarketRecord.cs",
+              "RelativeDocumentMoniker": "FluentCandleStick\\Models\\MarketRecord.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\FluentCandleStick\\FluentCandleStick\\FluentCandleStick\\Models\\MarketRecord.cs",
+              "RelativeToolTip": "FluentCandleStick\\Models\\MarketRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:54:29.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\FluentCandleStick\\FluentCandleStick\\FluentCandleStick\\Main.Designer.cs",
+              "RelativeDocumentMoniker": "FluentCandleStick\\Main.Designer.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\FluentCandleStick\\FluentCandleStick\\FluentCandleStick\\Main.Designer.cs",
+              "RelativeToolTip": "FluentCandleStick\\Main.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T12:12:36.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\FluentCandleStick\\FluentCandleStick\\FluentCandleStick\\Program.cs",
+              "RelativeDocumentMoniker": "FluentCandleStick\\Program.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\FluentCandleStick\\FluentCandleStick\\FluentCandleStick\\Program.cs",
+              "RelativeToolTip": "FluentCandleStick\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T12:12:51.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Main.resx",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\FluentCandleStick\\FluentCandleStick\\FluentCandleStick\\Main.resx",
+              "RelativeDocumentMoniker": "FluentCandleStick\\Main.resx",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\FluentCandleStick\\FluentCandleStick\\FluentCandleStick\\Main.resx",
+              "RelativeToolTip": "FluentCandleStick\\Main.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-04-28T12:12:33.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MarketDataTest.csv",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\FluentCandleStick\\FluentCandleStick\\FluentCandleStick\\MarketDataTest.csv",
+              "RelativeDocumentMoniker": "FluentCandleStick\\MarketDataTest.csv",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\FluentCandleStick\\FluentCandleStick\\FluentCandleStick\\MarketDataTest.csv",
+              "RelativeToolTip": "FluentCandleStick\\MarketDataTest.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2025-04-28T11:43:37.999Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Alex\\Desktop\\FluentCandleStick\\FluentCandleStick\\FluentCandleStick\\Main.cs",
+              "RelativeDocumentMoniker": "FluentCandleStick\\Main.cs",
+              "ToolTip": "C:\\Users\\Alex\\Desktop\\FluentCandleStick\\FluentCandleStick\\FluentCandleStick\\Main.cs [Design]",
+              "RelativeToolTip": "FluentCandleStick\\Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:12:35.512Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 109,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
